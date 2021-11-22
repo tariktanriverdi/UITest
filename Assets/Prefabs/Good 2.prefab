@@ -130,3 +130,5 @@ MonoBehaviour:
   maxSpeed: 16
   maxTorque: 10
   ySpawnPos: -6
+  pointValue: 1
+  effectIndex: 6

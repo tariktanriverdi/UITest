@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
         //exit
     }
     public void StartGame(int difficult)
-    {
+    {   scoreText.SetActive(true);
         spawnRate /= difficult;
         gameStartPanel.SetActive(false);
         Time.timeScale = 1;

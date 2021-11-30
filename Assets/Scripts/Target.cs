@@ -68,7 +68,7 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //if (other.gameObject.CompareTag("Sensor")) 
-        if(gameObject.CompareTag("Bad")) GameManager.Instance.GameOver();
+        if(!gameObject.CompareTag("Bad")) GameManager.Instance.GameOver();
         gameObject.SetActive(false);
     }
     void Update()
